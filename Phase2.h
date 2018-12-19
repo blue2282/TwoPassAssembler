@@ -449,17 +449,7 @@ void readSource(string source)
 										byteCounter++;
 									}
 									locationCounter+=byteCounter/2;
-									/*string hexString;
-									int x;
-
-									for( int i=2; i<operand.size()-1;i++)
-									{										
-										hexString.push_back(operand[i]);										
-									}
-										stringstream hexConvert;
-										hexConvert << std::hex << hexString;
-										hexConvert>>x;
-										locationCounter+=x;*/
+									
 								}							
 							}
 							else{
@@ -569,8 +559,7 @@ void readSource(string source)
 						outfile<<"error:too many symbols"<<endl;
 					}
 
-					// if its more than 500
-					
+					// if its more than 500				
 
 					// flag that it has too many symbols
 

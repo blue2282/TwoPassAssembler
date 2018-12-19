@@ -117,7 +117,6 @@ void compareInput(string command,int numParams,string param1,string param2)
 		cout << endl;
 		}
 		
-		//cout<< "help";
 		
 	}
 
@@ -154,7 +153,6 @@ void compareInput(string command,int numParams,string param1,string param2)
 		else{
 		system("ls");
 		}
-		//cout<< "directory";
 		
 	}
 
@@ -194,10 +192,7 @@ void compareInput(string command,int numParams,string param1,string param2)
 	 {
 		 // while not end of string read until you hit the first character
 
-		/* string com="";
-		 string param1="";
-		 string param2="";
-		 int paramCount =0;*/
+	
 
 		 int flag = 0;
 		 for ( int i= 0; i < input.length(); i++)
@@ -286,7 +281,7 @@ void compareInput(string command,int numParams,string param1,string param2)
 				
 			 }
 
-				// push each character into input until it hits a space and set flag to 2
+		// push each character into input until it hits a space and set flag to 2
 		//ignore space until it hits a character and the set flag to 3 
 		 // keep reading characters and pushing it into paramater1 until white space
 		 // when white space is hit set flag to 4
@@ -324,20 +319,6 @@ void compareInput(string command,int numParams,string param1,string param2)
 		 
 	 }
 
-	// void help
 
-	//void load
-
-	// void execute
-
-	//void debug
-
-	// void dump
-
-	//void help
-
-	// void assemble
-
-	// void directory
 
 	
